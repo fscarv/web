@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { Badge } from "./ui/badge";
 import { dayjs } from "@/lib/dayjs";
 import { ArrowRight } from "lucide-react";
-import { UseRooms } from "./http/use-rooms";
+import { UseRooms } from "@/http/use-rooms";
 
 export function RoomList() {
   const { data } = UseRooms();

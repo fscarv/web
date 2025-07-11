@@ -21,7 +21,7 @@ import {
 } from "./ui/form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-import { useCreateRoom } from "./http/use-create-room";
+import { useCreateRoom } from "@/http/use-create-room";
 
 const createRoomSchema = z.object({
   name: z.string().min(1, "Room name is required"),
